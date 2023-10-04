@@ -1,239 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet">
-  <link href="../css_files/profile_edit.css" rel="stylesheet">
-  <title>Edit Profile</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
-
 <body>
-<div class="d-flex flex-row" id="wrapper">
-  <div id="sidebar-wrapper">
-    <div class="d-flex flex-column align-items-left flex-grow-1 p-1 text-white bg-dark" id="kanbas-navbar">
-      <a href="./kanbasNavigation.html"
-         class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-        <img width="75" height="75" src="../../images/Neu.jpg">
-      </a>
-      <ul class="nav nav-pills flex-column mb-auto">
-        <li class="nav-item">
-          <a href="../profile/index.html" class="nav-link  active" aria-current="Navigate to account page">
-            <div class="d-flex flex-column align-items-center">
-                        <span>
-                            <i class="fas fa-user-circle fa-2x"></i>
-                        </span>
-              <div class="">Account</div>
-            </div>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link" aria-current="Navigate to account page">
-            <div class="d-flex flex-column align-items-center">
-                        <span>
-                            <i class="fas fa-tachometer-alt fa-2x"></i>
-                        </span>
-              <div>Dashboard</div>
-            </div>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="../course_home/course.html" class="nav-link" aria-current="Navigate to account page">
-            <div class="d-flex flex-column align-items-center">
-                        <span>
-                            <i class="fas fa-book fa-2x"></i>
-                        </span>
-              <div>Courses</div>
-            </div>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link" aria-current="Navigate to account page">
-            <div class="d-flex flex-column align-items-center">
-                        <span>
-                            <i class="far fa-calendar-alt fa-2x"></i>
-                        </span>
-              <div>Calendar</div>
-            </div>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link" aria-current="Navigate to account page">
-            <div class="d-flex flex-column align-items-center">
-                        <span>
-                            <i class="fas fa-envelope-open-text fa-2x"></i>
-                        </span>
-              <div>Inbox</div>
-            </div>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link" aria-current="Navigate to account page">
-            <div class="d-flex flex-column align-items-center">
-                        <span>
-                            <i class="far fa-clock fa-2x"></i>
-                        </span>
-              <div>History</div>
-            </div>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link" aria-current="Navigate to account page">
-            <div class="d-flex flex-column align-items-center">
-                        <span>
-                            <i class="fas fa-desktop fa-2x"></i>
-                        </span>
-              <div>Studio</div>
-            </div>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link" aria-current="Navigate to account page">
-            <div class="d-flex flex-column align-items-center">
-                        <span>
-                            <i class="fas fa-sign-out-alt fa-2x"></i>
-                        </span>
-              <div>Commons</div>
-            </div>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link" aria-current="Navigate to account page">
-            <div class="d-flex flex-column align-items-center">
-                        <span>
-                            <i class="far fa-question-circle fa-2x"></i>
-                        </span>
-              <div>Help</div>
-            </div>
-          </a>
-        </li>
+<table border="0" width="59%">
+  <tbody>
+  <tr valign="top">
+    <td>
+      <ul>
+        <li><a href="../navigationDir/accountNavigation.html">Account</a></li>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="../navigationDir/courseNavigation.html">Courses</a></li>
+        <li><a href="#">Calendar</a></li>
+        <li><a href="#">Inbox</a></li>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Studio</a></li>
+        <li><a href="#">Commons</a></li>
+        <li><a href="#">Help</a></li>
       </ul>
-      <hr>
-    </div>
-  </div>
-  <div class="page-content-wrapper">
-    <div class="container-fluid">
-                <span id="account-page-header" class="d-flex flex-row align-items-center">
-                    <h4>
-                        <i class="fas fa-bars fa-1x me-4" id="account-page-header-icon"></i>
-                        Karthikeya Reddy's Profile
-                    </h4>
-                </span>
-      <hr>
-      <div class="d-flex flex-row">
+    </td>
+    <td>
+      <ul>
+        <li><a href="#">Notifications</a></li>
+        <li><a href="./index.html">Profile</a></li>
+        <li><a href="#">Files</a></li>
+        <li><a href="#">Settings</a></li>
+        <li><a href="#">ePortfolios</a></li>
+        <li><a href="#">Shared Content</a></li>
+        <li><a href="#">The Hub</a></li>
+        <li><a href="#">Qwickly Course Tools</a></li>
+        <li><a href="#">Global Announcements</a></li>
+      </ul>
+    </td>
+    <td>
+      <form action="./index.html" id="profile-edit-form">
         <div>
-          <div class="d-flex flex-column" id="account-sidebar">
-            <ul>
-              <li><a href="#">Notifications</a></li>
-              <li class="selected"><a href=" ../profile/index.html">Profile</a></li>
-              <li><a href=" #">Files</a></li>
-              <li><a href="#">Settings</a></li>
-              <li><a href="#">ePortfolios</a></li>
-              <li><a href="#">Shared Content</a></li>
-              <li><a href="#">The Hub</a></li>
-              <li><a href="#">Qwickly Course Tools</a></li>
-              <li><a href="#">Global Announcements</a></li>
-            </ul>
-          </div>
+          <h1>Karthikeya Reddy</h1>
+          <label for="profile-edit-name">Name:* </label>
+          <input type="text" name="name" id="profile-edit-name" value="Karthikeya Reddy">
+          <label for="profile-edit-pronouns">Pronouns: </label>
+          <select name="pronouns" id="profile-edit-pronouns">
+            <option value="NONE" selected>None</option>
+            <option value="HE-HIM-HIS">He/Him/His</option>
+            <option value="SHE-HER-HERS">She/Her/Hers</option>
+            <option value="THEY-THEM-THEIRS">They/Them/Theirs</option>
+          </select>
+          <br>
+          <label for="profile-edit-title">Title: </label>
+          <input type="text" name="title" id="profit-edit-title">
         </div>
-          <div class="d-flex flex-column ms-4" id="profile-content">
-              <form action="./index.html" id="profile-form">
-                  <div id="header-container">
-                                <span class="fa-stack fa-6x mb-3 me-auto" id="profile-avatar">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-user fa-stack-1x" aria-hidden="true"></i>
-                                </span>
-                      <div class="float-end">
-                          <a href="./index.html" class="btn btn-primary override-btn">
-                              <i class="fas fa-pencil-alt fa-flip-horizontal"></i>
-                              Cancel Editing
-                          </a>
-                      </div>
-                  </div>
-                  <div class="col-9 mb-3" id="profile-name-container">
-                      <label for="profile-name" class="form-label">
-                          <span class="profile-label">Name:*</span>
-                      </label>
-                      <input type="text" class="form-control" id="profile-name" value="Karthikeya Reddy">
-                  </div>
-                  <div class="col-6 mb-3" id="profile-pronoun-container">
-                      <label for="profile-pronouns" class="form-label">
-                          <span class="profile-label">Pronouns:</span>
-                      </label>
-                      <select name="pronoun" id="profile-pronouns" class="form-select">
-                          <option value="NONE" selected>None</option>
-                      </select>
-                  </div>
-                  <div class="col-9 mb-3 mb-5" id="profile-title-container">
-                      <label for="profile-title" class="form-label">
-                          <span class="profile-label">Title:</span>
-                      </label>
-                      <input type="text" class="form-control" id="profile-title">
-                  </div>
-                  <div class="mb-4 profile-section" id="profile-contact-container">
-                      <h3>Contact</h3>
-                          No registered services, you can add some on the <a href="#"
-                                                                             id="settings-link">settings</a> page.
-                  </div>
-                  <div class="col-9 mb-4" id="profile-biography-container">
-                      <label for="profile-biography" class="form-label">
-                          <h3>Biography</h3>
-                      </label>
-                      <textarea name="biography" id="profile-biography" cols="30" rows="10"
-                                class="form-control">Student.</textarea>
-                  </div>
-                  <div class="mb-4 profile-section" id="profile-links-container">
-                      <h3>Links</h3>
-                      <div class="row mb-1 align-items-center">
-                          <div class="d-flex col-5 justify-content-center">
-                              <span class="profile-label">Title</span>
-                          </div>
-                          <div class="col-1">
+        <div>
+          <h2>Contact</h2>
+          No registered services, you can add some on the <a href="#">settings</a> page.
+        </div>
+        <div>
+          <h2>Biography</h2>
+          <textarea name="biography" id="profile-edit-biography" cols="30"
+                    rows="10">Student.</textarea>
+        </div>
+        <div>
+          <h2>Links</h2>
+          <ul>
+            <li id="external-link"><a
+                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">YouTube</a> Links to an
+              external site.
+            </li>
+          </ul>
+        </div>
+        <table border="0" width="80%" id="links-table">
+          <thead>
+          <tr>
+            <th>
+              Title
+            </th>
+            <th></th>
+            <th>
+              URL
+            </th>
+            <th></th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="auto-width"><input type="text" name="link-title"
+                                          id="profile-edit-link-title" value="YouTube">
+            </td>
+            <td>&rarr;</td>
+            <td class="auto-width"><input type="text" name="link-url" id="profile-edit-link-url"
+                                          value="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"></td>
+            <td><a href="#">Remove</a></td>
+          </tr>
+          </tbody>
+        </table>
+        <div id="profile-edit-link-buttons">
+          <button type="button">Add another link</button>
+          <br>
+          <button type="button">Cancel</button>
+          <button>Save Profile</button>
+          <br>
+          <button type="button">Edit Profile</button>
+          <button>Cancel Editing</button>
+        </div>
+      </form>
 
-                          </div>
-                          <div class="d-flex col-5 justify-content-center">
-                              <span class="profile-label">URL</span>
-                          </div>
-                          <div class="col-1">
 
-                          </div>
-                      </div>
+    </td>
+  </tr>
+  </tbody>
+</table>
 
-                      <div class="row mb-1 align-items-center">
-                          <div class="col-5">
-                              <input type="text" class="form-control" value="YouTube">
-                          </div>
-                          <div class="col-1">
-                              <i class="fas fa-arrow-right"></i>
-                          </div>
-                          <div class="col-5">
-                              <input type="text" class="form-control"
-                                     value="https://www.youtube.com/@WebDevTV/videos">
-                          </div>
-                          <div class="col-1">
-                              <i class="fas fa-times fa-2x" style="color: #f01505;"></i>
-                          </div>
-                      </div>
-                      <div class="row mb-4">
-                          <div class="col-5">
-                              <a href="#" class="btn btn-primary override-btn" id="button-add-link">Add
-                                  another link</a>
-                          </div>
-                      </div>
-                      <hr>
-                  </div>
-                  <div class="d-flex flex-row justify-content-end">
-                      <a href="./index.html" class="btn btn-primary override-btn me-3">Cancel</a>
-                      <button class="btn btn-primary btn-red">Save Profile</button>
-                  </div>
-              </form>
-          </div>
-      </div>
-    </div>
-  </div>
-</div>
 </body>
-
 </html>

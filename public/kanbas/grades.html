@@ -1,340 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Grades</title>
-  <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../vendors/fontawesome/css/all.css" rel="stylesheet">
-
-  <link href="./css_files/grades.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <title>Grades-Screen</title>
 </head>
 <body>
-<div class="d-flex flex-row" id="wrapper">
-<div id="sidebar-wrapper">
-  <div class="d-flex flex-column align-items-left flex-grow-1 p-1 text-white bg-dark" id="kanbas-navbar">
-    <a href="./home.html"
-       class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-      <img width="75" height="75" src="../images/Neu.jpg">
-    </a>
-    <ul class="nav nav-pills flex-column mb-auto">
-      <li class="nav-item">
-        <a href="./profile/index.html" class="nav-link" aria-current="Navigate to account page">
-          <div class="d-flex flex-column align-items-center">
-                        <span>
-                            <i class="fas fa-user-circle fa-2x"></i>
-                        </span>
-            <div class="">Account</div>
-          </div>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a href="./dashboard/dash.html" class="nav-link " aria-current="Navigate to account page">
-          <div class="d-flex flex-column align-items-center">
-                        <span>
-                            <i class="fas fa-tachometer-alt fa-2x"></i>
-                        </span>
-            <div>Dashboard</div>
-          </div>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a href="./course_home/course.html" class="nav-link active" aria-current="Navigate to account page">
-          <div class="d-flex flex-column align-items-center">
-                        <span>
-                            <i class="fas fa-book fa-2x"></i>
-                        </span>
-            <div>Courses</div>
-          </div>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link" aria-current="Navigate to account page">
-          <div class="d-flex flex-column align-items-center">
-                        <span>
-                            <i class="far fa-calendar-alt fa-2x"></i>
-                        </span>
-            <div>Calendar</div>
-          </div>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link" aria-current="Navigate to account page">
-          <div class="d-flex flex-column align-items-center">
-                        <span>
-                            <i class="fas fa-envelope-open-text fa-2x"></i>
-                        </span>
-            <div>Inbox</div>
-          </div>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link" aria-current="Navigate to account page">
-          <div class="d-flex flex-column align-items-center">
-                        <span>
-                            <i class="far fa-clock fa-2x"></i>
-                        </span>
-            <div>History</div>
-          </div>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link" aria-current="Navigate to account page">
-          <div class="d-flex flex-column align-items-center">
-                        <span>
-                            <i class="fas fa-desktop fa-2x"></i>
-                        </span>
-            <div>Studio</div>
-          </div>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link" aria-current="Navigate to account page">
-          <div class="d-flex flex-column align-items-center">
-                        <span>
-                            <i class="fas fa-sign-out-alt fa-2x"></i>
-                        </span>
-            <div>Commons</div>
-          </div>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link" aria-current="Navigate to account page">
-          <div class="d-flex flex-column align-items-center">
-                        <span>
-                            <i class="far fa-question-circle fa-2x"></i>
-                        </span>
-            <div>Help</div>
-          </div>
-        </a>
-      </li>
-    </ul>
-    <hr/>
-  </div>
-</div>
-  <div class="page-content-wrapper">
-    <div class="container-fluid">
-            <span id="account-page-header" class="d-flex flex-row align-items-center">
-                <h6>
-                    <i class="fas fa-bars fa-1x me-4" id="account-page-header-icon"></i>
-                    <span style="color: red;">CS5610.11744.202310 </span> > Grades
-                </h6>
-            </span>
-    <hr>
-      <div class="d-flex flex-row">
-        <div>
-      <div class="d-flex flex-column" id="account-sidebar">
+<table border="0" width="90%">
+  <tbody>
+  <tr valign="top">
 
-        <ul>
-          <li><a href="./home.html">Home</a></li>
-          <li><a href="#">Modules</a></li>
-          <li><a href="#">Piazza</a></li>
-          <li><a href="#">Zoom Meetings</a></li>
-          <li><a href="./assignments/index.html">Assignments</a></li>
-          <li><a href="#">Quizzes</a></li>
-          <li class="selected"><a href="./grades.html">Grades</a></li>
-          <li><a href="#">People</a></li>
-          <li><a href="#">Panopto Video</a></li>
-          <li><a href="#">Discussions</a><i class="far fa-eye-slash" style="margin-left: 42px;"></i></li>
-          <li><a href="#">Announcements</a><i class="far fa-eye-slash" style="margin-left: 5px;"></i></li>
-          <li><a href="#">Pages</a><i class="far fa-eye-slash" style="margin-left: 93px;"></i></li>
-          <li><a href="#">Files</a><i class="far fa-eye-slash" style="margin-left: 106px;"></i></li>
-          <li><a href="#">Rubrics</a><i class="far fa-eye-slash" style="margin-left: 82px;"></i></li>
-          <li><a href="#">Outcomes</a><i class="far fa-eye-slash" style="margin-left: 60px;"></i></li>
-          <li><a href="#">Collaborations</a><i class="far fa-eye-slash" style="margin-left: 25px;"></i></li>
-          <li><a href="#">Syllabus</a><i class="far fa-eye-slash" style="margin-left: 79px;"></i></li>
-          <li><a href="./settings/courseDetails.html">Settings</a></li>
-        </ul>
+    <td>
+      <ul>
+        <li><a href="./navigationDir/accountNavigation.html">Account</a></li>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="./navigationDir/courseNavigation.html">Courses</a></li>
+        <li><a href="#">Calendar</a></li>
+        <li><a href="#">Inbox</a></li>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Studio</a></li>
+        <li><a href="#">Commons</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </td>
+    <!-- Second column -->
+    <td>
+      <ul>
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="#">Modules</a></li>
+        <li><a href="#">Piazza</a></li>
+        <li><a href="#">Zoom Meetings</a></li>
+        <li><a href="./assignments/index.html">Assignments</a></li>
+        <li><a href="#">Quizzes</a></li>
+        <li><a href="./grades.html">Grades</a></li>
+        <li><a href="#">People</a></li>
+        <li><a href="#">Panopto Video</a></li>
+        <li><a href="#">Discussions</a></li>
+        <li><a href="#">Announcements</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="#">Files</a></li>
+        <li><a href="#">Rubrics</a></li>
+        <li><a href="#">Outcomes</a></li>
+        <li><a href="#">Collaborations</a></li>
+        <li><a href="#">Syllabus</a></li>
+        <li><a href="./settings/settingsHome.html">Settings</a></li>
+      </ul>
+    </td>
+    <td>
+      <div id="grades-buttons">
+        <select name="grade-source-options" id="grade-source-options">
+          <option value="GRADEBOOK">Gradebook</option>
+          <option value="OTHERS">Others</option>
+        </select>
+        <button>Import</button>
+        <select name="grade-export-options" id="grade-export-options">
+          <option value="EXPORT" selected>Export</option>
+          <option value="EXPORT-ALL">Export All</option>
+        </select>
+        <button>Configure</button>
       </div>
-        </div>
-        <div class="d-flex flex-column" style="flex-grow: 1">
-          <div
-                  class="d-flex align-items-center"
-                  style="align-self: flex-end; margin-bottom: 20px"
-          >
-            <button
-                    type="button"
-                    class="btn btn-secondary"
-                    style="margin-left: 10px"
-            >
-              <i
-                      class="fas fa-file-export"
-                      style="margin-right: 5px"
-              ></i
-              >Import
-            </button>
-            <button
-                    type="button"
-                    class="btn btn-secondary"
-                    style="margin-right: 10px; margin-left: 10px"
-            >
-              <i
-                      class="fas fa-file-export fa-flip-horizontal"
-                      style="margin-right: 5px"
-              ></i
-              >Export
-            </button>
-            <button type="button" class="btn btn-secondary">
-              <i class="fas fa-cog"></i>
-            </button>
-          </div>
-          <div class="container">
-            <div class="row" style="margin-left: 8px;">
-              <div class="col-6">
-                <a style="font-weight: bold">Student Names</a>
-                <input
-                        class="form-control"
-                        type="text"
-                        id="exampleInput"
-                        placeholder="Search Students"
-                />
-              </div>
-              <div class="col-6">
-                <a style="font-weight: bold">Assignment Names</a>
-                <input
-                        type="text"
-                        class="form-control"
-                        id="exampleInput"
-                        placeholder="Search Assignments"
-                />
-              </div>
-            </div>
-            <div class="row" style="margin-top: 10px; margin-bottom: 10px">
-              <div class="col-6">
-                <button
-                        type="button"
-                        class="btn btn-secondary"
-                        style="width: 150px; margin-left: 20px;"
-                >
-                  <i class="fas fa-filter"
-                  style="margin-right: 5px">
-
-                  </i>
-                  Apply Filters
-                </button>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="table-responsive" style="max-width: 1000px; margin-right: 30px;">
-                  <table
-                          class="table table-bordered table-striped"
-                          style="max-width: 1500px; margin-left:20px; "
-                  >
-                    <thead>
-                    <tr>
-                      <th scope="col">Student Name</th>
-                      <th scope="col">A1 SETUP Out of 100</th>
-                      <th scope="col">A2 HTML Out of 100</th>
-                      <th scope="col">A3 CSS Out of 100</th>
-                      <th scope="col">A4 BOOTSTRAP Out of 100</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                      <td><a style="color: red">Doxa Asibey</a></td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                    </tr>
-                    <tr>
-                      <td><a style="color: red">Thuy Tien Bui</a></td>
-                      <td class="text-center">100%</td>
-
-                      <td class="text-center">100%</td>
-                      <td>
-                        <input
-                                type="text"
-                                class="form-control text-center"
-                                id="exampleInput"
-                                value="91.5%"
-                        />
-                      </td>
-                      <td class="text-center">100%</td>
-                    </tr>
-                    <tr>
-                      <td><a style="color: red">Thuy Tien Bui</a></td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                    </tr>
-                    <tr>
-                      <td><a style="color: red">Yetong Chen</a></td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                    </tr>
-                    <tr>
-                      <td><a style="color: red">Zhenyu Chen</a></td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                    </tr>
-                    <tr>
-                      <td><a style="color: red">Yung-Shin Chien</a></td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                    </tr>
-                    <tr>
-                      <td><a style="color: red">Basil Coughlan</a></td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                    </tr>
-                    <tr>
-                      <td><a style="color: red">Rachel Dao</a></td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                    </tr>
-                    <tr>
-                      <td><a style="color: red">Lana Do</a></td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                    </tr>
-                    <tr>
-                      <td><a style="color: red">Kartikey Dwivedi</a></td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                    </tr>
-                    <tr>
-                      <td><a style="color: red">Jiarong Feng</a></td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <a style="color: red">Saurabh Sunil Gade</a>
-                      </td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                      <td class="text-center">100%</td>
-                    </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div id="grades-search">
+        <h2>Student Names</h2>
+        <input type="text" name="search-student-name" id="search-student-name"
+               placeholder="Search Students">
+        <h2>Assignment Names</h2>
+        <input type="text" name="search-assignment-name" id="search-assignment-name"
+               placeholder="Search Assignments">
       </div>
-    </div>
-</div>
-</div>
+      <br>
+      <div id="apply-filters-button">
+        <button>Apply Filters</button>
+      </div>
+      <br>
+      <div id="grades-table-section">
+
+        <table id="grades-table" border="1" width="100%">
+          <thead>
+          <tr>
+            <th>
+              Student Name
+            </th>
+            <th>
+              A1 SETUP Out of 100
+            </th>
+            <th>
+              A2 HTML Out of 100
+            </th>
+            <th>
+              A3 CSS Out of 100
+            </th>
+            <th>
+              A4 BOOTSTRAP Out of 100
+            </th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="grades-student-name">Alice Wonderland</td>
+            <td>98</td>
+            <td>89</td>
+            <td>87</td>
+            <td>90</td>
+          </tr>
+          <tr>
+            <td class="grades-student-name">Princess Leia</td>
+            <td>98</td>
+            <td>80</td>
+            <td>87</td>
+            <td>86</td>
+          </tr>
+          <tr>
+            <td class="grades-student-name">Luke Skywalker</td>
+            <td><input type="number" name="student-grade" id="" value="98" max="100" min="0"
+                       step="1">
+            </td>
+            <td>89</td>
+            <td>87</td>
+            <td>90</td>
+          </tr>
+          <tr>
+            <td class="grades-student-name">Han Solo</td>
+            <td><input type="number" name="student-grade" id="" value="83" max="100" min="0"
+                       step="1">
+            </td>
+            <td>99</td>
+            <td>94</td>
+            <td>98</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </td>
+  </tr>
+  </tbody>
+</table>
+
 </body>
 </html>
-
