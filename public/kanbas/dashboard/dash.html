@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Dashboard</title>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet">
+    <link href="../css_files/dash.css" rel="stylesheet">
+</head>
+<body>
+<div class="d-flex">
+    <div id="sidebar-wrapper">
+        <div class="d-flex flex-column align-items-left flex-grow-1 p-1 text-white bg-dark" id="kanbas-navbar">
+            <a href="../home.html"
+               class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <img width="75" height="75" src="../../images/Neu.jpg">
+            </a>
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                    <a href="../profile/index.html" class="nav-link" aria-current="Navigate to account page">
+                        <div class="d-flex flex-column align-items-center">
+                        <span>
+                            <i class="fas fa-user-circle fa-2x"></i>
+                        </span>
+                            <div class="">Account</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link active" aria-current="Navigate to account page">
+                        <div class="d-flex flex-column align-items-center">
+                        <span>
+                            <i class="fas fa-tachometer-alt fa-2x"></i>
+                        </span>
+                            <div>Dashboard</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="../course_home/course.html" class="nav-link" aria-current="Navigate to account page">
+                        <div class="d-flex flex-column align-items-center">
+                        <span>
+                            <i class="fas fa-book fa-2x"></i>
+                        </span>
+                            <div>Courses</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" aria-current="Navigate to account page">
+                        <div class="d-flex flex-column align-items-center">
+                        <span>
+                            <i class="far fa-calendar-alt fa-2x"></i>
+                        </span>
+                            <div>Calendar</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" aria-current="Navigate to account page">
+                        <div class="d-flex flex-column align-items-center">
+                        <span>
+                            <i class="fas fa-envelope-open-text fa-2x"></i>
+                        </span>
+                            <div>Inbox</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" aria-current="Navigate to account page">
+                        <div class="d-flex flex-column align-items-center">
+                        <span>
+                            <i class="far fa-clock fa-2x"></i>
+                        </span>
+                            <div>History</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" aria-current="Navigate to account page">
+                        <div class="d-flex flex-column align-items-center">
+                        <span>
+                            <i class="fas fa-desktop fa-2x"></i>
+                        </span>
+                            <div>Studio</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" aria-current="Navigate to account page">
+                        <div class="d-flex flex-column align-items-center">
+                        <span>
+                            <i class="fas fa-sign-out-alt fa-2x"></i>
+                        </span>
+                            <div>Commons</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" aria-current="Navigate to account page">
+                        <div class="d-flex flex-column align-items-center">
+                        <span>
+                            <i class="far fa-question-circle fa-2x"></i>
+                        </span>
+                            <div>Help</div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <hr/>
+        </div>
+    </div>
+    <div class="d-flex flex-column" style="width: 100%">
+        <h2>Dashboard</h2>
+        <hr/>
+        <br>
+        <div class="container-fluid">
+            <h3>Published Courses (8)</h3>
+            <hr/>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-xl-3" style="border-radius: 10px">
+                    <div
+                            class="card"
+                            style="width: 270px; margin-bottom: 35px; margin-top: 35px;margin-left: 10px"
+                    >
+                        <div
+                                class="d-flex justify-content-end"
+                                style="
+                    background-color: #116CBC;
+                    height: 120px;
+                    border-radius: 5px;
+                    width: 270px;
+                  "
+                        >
+                            <i
+                                    class="fas fa-ellipsis-v"
+                                    style="margin-top: 10px; margin-right: 10px; color: white"
+                            ></i>
+                        </div>
+                        <div class="card-body">
+                            <a
+                                    class="card-title"
+                                    style="
+                      color: #116CBC;
+                      font-weight: bold;
+                      text-decoration: none;
+                    "
+                                    href="../course_home/course.html"
+                            >
+                                CS4550 12631 Web Development
+                            </a>
+                            <h5 class="card-text" style="color: grey">CS4550.12631</h5>
+                            <p class="card-text" style="font-size: 0.9em; color: grey">
+                                202410_1 Fall 2023 Semester Full Term
+                            </p>
+                            <i class="far fa-edit"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div
+                            class="card"
+                            style="width: 270px; margin-bottom: 35px; margin-top: 35px;margin-left: 10px"
+                    >
+                        <div
+                                class="d-flex justify-content-end"
+                                style="
+                    background-color: #116CBC;
+                    height: 120px;
+                    border-radius: 5px;
+                    width: 270px;
+                  "
+                        >
+                            <i
+                                    class="fas fa-ellipsis-v"
+                                    style="margin-top: 10px; margin-right: 10px; color: white"
+                            ></i>
+                        </div>
+                        <div class="card-body">
+                            <a
+                                    class="card-title"
+                                    style="
+                      color: #116CBC;
+                      font-weight: bold;
+                      text-decoration: none;
+                    "
+                                    href="../course_home/course.html"
+                            >
+                                CS4550 12631 Web Development
+                            </a>
+                            <h5 class="card-text" style="color: grey">CS4550.12631</h5>
+                            <p class="card-text" style="font-size: 0.9em; color: grey">
+                                202410_1 Fall 2023 Semester Full Term
+                            </p>
+                            <i class="far fa-edit"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div
+                            class="card"
+                            style="width: 270px; margin-bottom: 35px; margin-top: 35px;margin-left: 10px"
+                    >
+                        <div
+                                class="d-flex justify-content-end"
+                                style="
+                    background-color: #D1D2D0;
+                    height: 120px;
+                    border-radius: 5px;
+                    width: 270px;
+                  "
+                        >
+                            <i
+                                    class="fas fa-ellipsis-v"
+                                    style="margin-top: 10px; margin-right: 10px; color: white"
+                            ></i>
+                        </div>
+                        <div class="card-body">
+                            <a
+                                    class="card-title"
+                                    style="
+                      color: #D1D2D0;
+                      font-weight: bold;
+                      text-decoration: none;
+                    "
+                                    href="../course_home/course.html"
+                            >
+                                CS4550 12631 Web Development
+                            </a>
+                            <h5 class="card-text" style="color: grey">CS4550.12631</h5>
+                            <p class="card-text" style="font-size: 0.9em; color: grey">
+                                202410_1 Fall 2023 Semester Full Term
+                            </p>
+                            <i class="far fa-edit"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div
+                            class="card"
+                            style="width: 270px; margin-bottom: 35px; margin-top: 35px;margin-left: 10px"
+                    >
+                        <div
+                                class="d-flex justify-content-end"
+                                style="
+                    background-color: #D1D2D0;
+                    height: 120px;
+                    border-radius: 5px;
+                    width: 270px;
+                  "
+                        >
+                            <i
+                                    class="fas fa-ellipsis-v"
+                                    style="margin-top: 10px; margin-right: 10px; color: white"
+                            ></i>
+                        </div>
+                        <div class="card-body">
+                            <a
+                                    class="card-title"
+                                    style="
+                      color: #D1D2D0;
+                      font-weight: bold;
+                      text-decoration: none;
+                    "
+                                    href="../course_home/course.html"
+                            >
+                                CS4550 12631 Web Development
+                            </a>
+                            <h5 class="card-text" style="color: grey">CS4550.12631</h5>
+                            <p class="card-text" style="font-size: 0.9em; color: grey">
+                                202410_1 Fall 2023 Semester Full Term
+                            </p>
+                            <i class="far fa-edit"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div
+                            class="card"
+                            style="width: 270px; margin-bottom: 35px; margin-top: 35px;margin-left: 10px"
+                    >
+                        <div
+                                class="d-flex justify-content-end"
+                                style="
+                    background-color: #116CBC;
+                    height: 120px;
+                    border-radius: 5px;
+                    width: 270px;
+                  "
+                        >
+                            <i
+                                    class="fas fa-ellipsis-v"
+                                    style="margin-top: 10px; margin-right: 10px; color: white"
+                            ></i>
+                        </div>
+                        <div class="card-body">
+                            <a
+                                    class="card-title"
+                                    style="
+                      color: #116CBC;
+                      font-weight: bold;
+                      text-decoration: none;
+                    "
+                                    href="../course_home/course.html"
+                            >
+                                CS4550 12631 Web Development
+                            </a>
+                            <h5 class="card-text" style="color: grey">CS4550.12631</h5>
+                            <p class="card-text" style="font-size: 0.9em; color: grey">
+                                202410_1 Fall 2023 Semester Full Term
+                            </p>
+                            <i class="far fa-edit"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div
+                            class="card"
+                            style="width: 270px; margin-bottom: 35px; margin-top: 35px;margin-left: 10px"
+                    >
+                        <div
+                                class="d-flex justify-content-end"
+                                style="
+                    background-color: #D1D2D0;
+                    height: 120px;
+                    border-radius: 5px;
+                    width: 270px;
+                  "
+                        >
+                            <i
+                                    class="fas fa-ellipsis-v"
+                                    style="margin-top: 10px; margin-right: 10px; color: white"
+                            ></i>
+                        </div>
+                        <div class="card-body">
+                            <a
+                                    class="card-title"
+                                    style="
+                      color: #D1D2D0;
+                      font-weight: bold;
+                      text-decoration: none;
+                    "
+                                    href="../course_home/course.html"
+                            >
+                                CS4550 12631 Web Development
+                            </a>
+                            <h5 class="card-text" style="color: grey">CS4550.12631</h5>
+                            <p class="card-text" style="font-size: 0.9em; color: grey">
+                                202410_1 Fall 2023 Semester Full Term
+                            </p>
+                            <i class="far fa-edit"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div
+                            class="card"
+                            style="width: 270px; margin-bottom: 35px; margin-top: 35px; margin-left: 10px"
+                    >
+                        <div
+                                class="d-flex justify-content-end"
+                                style="
+                    background-color: #116CBC;
+                    height: 120px;
+                    border-radius: 5px;
+                    width: 270px;
+                  "
+                        >
+                            <i
+                                    class="fas fa-ellipsis-v"
+                                    style="margin-top: 10px; margin-right: 10px; color: white"
+                            ></i>
+                        </div>
+                        <div class="card-body">
+                            <a
+                                    class="card-title"
+                                    style="
+                      color: #116CBC;
+                      font-weight: bold;
+                      text-decoration: none;
+                    "
+                                    href="../course_home/course.html"
+                            >
+                                CS4550 12631 Web Development
+                            </a>
+                            <h5 class="card-text" style="color: grey">CS4550.12631</h5>
+                            <p class="card-text" style="font-size: 0.9em; color: grey">
+                                202410_1 Fall 2023 Semester Full Term
+                            </p>
+                            <i class="far fa-edit"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div
+                            class="card"
+                            style="width: 270px; margin-bottom: 35px; margin-top: 35px; margin-left: 10px"
+                    >
+                        <div
+                                class="d-flex justify-content-end"
+                                style="
+                    background-color: #116CBC;
+                    height: 120px;
+                    border-radius: 5px;
+                    width: 270px;
+                  "
+                        >
+                            <i
+                                    class="fas fa-ellipsis-v"
+                                    style="margin-top: 10px; margin-right: 10px; color: white"
+                            ></i>
+                        </div>
+                        <div class="card-body">
+                            <a
+                                    class="card-title"
+                                    style="
+                      color: #116CBC;
+                      font-weight: bold;
+                      text-decoration: none;
+                    "
+                                    href="../course_home/course.html"
+                            >
+                                CS4550 12631 Web Development
+                            </a>
+                            <h5 class="card-text" style="color: grey">CS4550.12631</h5>
+                            <p class="card-text" style="font-size: 0.9em; color: grey">
+                                202410_1 Fall 2023 Semester Full Term
+                            </p>
+                            <i class="far fa-edit"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

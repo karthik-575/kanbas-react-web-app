@@ -1,66 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Profile-screen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet">
+    <link href="../css_files/index_profile.css" rel="stylesheet">
+    <title>Profile</title>
 </head>
-<body>
-<table border="0" width="74%">
-  <tbody>
-  <tr valign="top">
-    <td>
-      <ul>
-        <li><a href="../navigationDir/accountNavigation.html">Account</a></li>
-        <li><a href="#">Dashboard</a></li>
-        <li><a href="../navigationDir/courseNavigation.html">Courses</a></li>
-        <li><a href="#">Calendar</a></li>
-        <li><a href="#">Inbox</a></li>
-        <li><a href="#">History</a></li>
-        <li><a href="#">Studio</a></li>
-        <li><a href="#">Commons</a></li>
-        <li><a href="#">Help</a></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><a href="#">Notifications</a></li>
-        <li><a href="./index.html">Profile</a></li>
-        <li><a href="#">Files</a></li>
-        <li><a href="#">Settings</a></li>
-        <li><a href="#">ePortfolios</a></li>
-        <li><a href="#">Shared Content</a></li>
-        <li><a href="#">The Hub</a></li>
-        <li><a href="#">Qwickly Course Tools</a></li>
-        <li><a href="#">Global Announcements</a></li>
-      </ul>
-    </td>
-    <td>
-      <div id="profile-header">
-        Karthikeya Reddy's Profile
-      </div>
-      <hr>
-      <form action="./edit.html" id="profile-form">
-        <div id="header-container">
-          <h1>Karthikeya Reddy</h1>
-          <button>Edit Profile</button>
-        </div>
-        <div>
-          <h2>Contact</h2>
-          No registered services, you can add some on the <a href="#">settings</a> page.
-        </div>
-        <div>
-          <h2>Biography</h2>
-          Student.
-        </div>
-        <div>
-          <h2>Links</h2>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">YouTube</a>
-        </div>
-      </form>
 
-    </td>
-  </tr>
-  </tbody>
-</table>
+<body>
+<div class="d-flex flex-row" id="wrapper">
+    <div id="sidebar-wrapper">
+        <div class="d-flex flex-column align-items-left flex-grow-1 p-1 text-white bg-dark" id="kanbas-navbar">
+            <a href="./kanbasNavigation.html"
+               class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <img width="75" height="75" src="../../images/Neu.jpg">
+            </a>
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                    <a href="../profile/index.html" class="nav-link  active" aria-current="Navigate to account page">
+                        <div class="d-flex flex-column align-items-center">
+                        <span>
+                            <i class="fas fa-user-circle fa-2x"></i>
+                        </span>
+                            <div class="">Account</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="../dashboard/dash.html" class="nav-link" aria-current="Navigate to account page">
+                        <div class="d-flex flex-column align-items-center">
+                        <span>
+                            <i class="fas fa-tachometer-alt fa-2x"></i>
+                        </span>
+                            <div>Dashboard</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="../course_home/course.html" class="nav-link" aria-current="Navigate to account page">
+                        <div class="d-flex flex-column align-items-center">
+                        <span>
+                            <i class="fas fa-book fa-2x"></i>
+                        </span>
+                            <div>Courses</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" aria-current="Navigate to account page">
+                        <div class="d-flex flex-column align-items-center">
+                        <span>
+                            <i class="far fa-calendar-alt fa-2x"></i>
+                        </span>
+                            <div>Calendar</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" aria-current="Navigate to account page">
+                        <div class="d-flex flex-column align-items-center">
+                        <span>
+                            <i class="fas fa-envelope-open-text fa-2x"></i>
+                        </span>
+                            <div>Inbox</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" aria-current="Navigate to account page">
+                        <div class="d-flex flex-column align-items-center">
+                        <span>
+                            <i class="far fa-clock fa-2x"></i>
+                        </span>
+                            <div>History</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" aria-current="Navigate to account page">
+                        <div class="d-flex flex-column align-items-center">
+                        <span>
+                            <i class="fas fa-desktop fa-2x"></i>
+                        </span>
+                            <div>Studio</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" aria-current="Navigate to account page">
+                        <div class="d-flex flex-column align-items-center">
+                        <span>
+                            <i class="fas fa-sign-out-alt fa-2x"></i>
+                        </span>
+                            <div>Commons</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" aria-current="Navigate to account page">
+                        <div class="d-flex flex-column align-items-center">
+                        <span>
+                            <i class="far fa-question-circle fa-2x"></i>
+                        </span>
+                            <div>Help</div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <hr>
+        </div>
+    </div>
+    <div class="page-content-wrapper">
+        <div class="container-fluid">
+                <span id="account-page-header" class="d-flex flex-row align-items-center">
+                    <h4>
+                        <i class="fas fa-bars fa-1x me-4" id="account-page-header-icon"></i>
+                        Karthikeya Reddy's Profile
+                    </h4>
+                </span>
+            <hr>
+            <div class="d-flex flex-row">
+                <div>
+                    <div class="d-flex flex-column" id="account-sidebar">
+                        <ul>
+                            <li><a href="#">Notifications</a></li>
+                            <li class="selected"><a href=" ../profile/index.html">Profile</a></li>
+                            <li><a href=" #">Files</a></li>
+                            <li><a href="#">Settings</a></li>
+                            <li><a href="#">ePortfolios</a></li>
+                            <li><a href="#">Shared Content</a></li>
+                            <li><a href="#">The Hub</a></li>
+                            <li><a href="#">Qwickly Course Tools</a></li>
+                            <li><a href="#">Global Announcements</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex flex-column ms-4" id="profile-content">
+                    <div id="header-container">
+                        <div class="me-auto">
+                                <span class="fa-stack fa-6x mb-3" id="profile-avatar">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-user fa-stack-1x" aria-hidden="true"></i>
+                                </span>
+                            <div class="float-end">
+                                <a href="./edit.html" class="btn btn-primary override-btn">
+                                    <i class="fas fa-pencil-alt fa-flip-horizontal"></i>
+                                    Edit Profile
+                                </a>
+                            </div>
+                            <h2 class="mb-5" id="username">Karthikeya Reddy</h2>
+                        </div>
+
+                    </div>
+
+                    <div class="mb-4 profile-section">
+                        <h3>Contact</h3>
+                            No registered services, you can add some on the <a href="#">settings</a> page.
+                    </div>
+                    <div class="mb-4 profile-section">
+                        <h3>Biography</h3>
+                        Student.
+                    </div>
+                    <div class="mb-4 profile-section">
+                        <h3>Links</h3>
+                        <ul id="links-list">
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=SUNdPgARCtg&ab_channel=WebDevTV">
+                                    <i class="fas fa-link"></i>
+                                    YouTube
+                                    <i class="fas fa-arrow-right-from-bracket"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
+
 </html>
