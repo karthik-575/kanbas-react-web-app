@@ -14,13 +14,6 @@ function WorkingWithArrays () {
     let numberArray1 = [1, 2, 3, 4, 5];
     let stringArray1 = ["string1", "string2"];
 
-    let variableArray1 = [
-        functionScoped,
-        blockScoped,
-        constant1,
-        numberArray1,
-        stringArray1,
-    ];
 
     return (
         <>

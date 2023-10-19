@@ -1,6 +1,4 @@
 import KanbasNavigation from "./KanbasNavigation";
-import { Link } from "react-router-dom";
-import Nav from "../Nav";
 import { Route, Routes, Navigate } from "react-router";
 import Dashboard from "./Dashboard";
 import Courses from "./Courses";

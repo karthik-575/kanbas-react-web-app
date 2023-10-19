@@ -3,7 +3,6 @@ import { useNavigate, useParams, Link } from "react-router-dom";
 import db from "../../../Database";
 import "./index.css"
 import { FaCheckCircle,
-    FaPlus,
 } from "react-icons/fa"
 import {FaEllipsisVertical} from "react-icons/fa6";
 function AssignmentEditor() {

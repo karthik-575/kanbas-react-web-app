@@ -10,7 +10,6 @@ import {
 
 } from "react-icons/fa";
 import {FaGear,
-        FaTriangleExclamation,
 } from "react-icons/fa6";
 
 function Grades() {

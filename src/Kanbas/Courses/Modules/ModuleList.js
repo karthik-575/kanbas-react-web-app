@@ -1,7 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import db from "../../Database";
-import { FaEllipsisV, FaPlus, FaCheckCircle, FaBookOpen } from "react-icons/fa"; // import necessary icons
 import "./index.css";
 
 function ModuleList() {
