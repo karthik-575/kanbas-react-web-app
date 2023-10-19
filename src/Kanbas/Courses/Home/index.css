@@ -1,0 +1,40 @@
+.course-content-section {
+    width: 300px;
+    padding: 20px;
+}
+
+.divider {
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.btn-secondary {
+    background-color: rgb(219, 219, 219);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+.btn-secondary i {
+    margin-right: 3px;
+}
+.title-section {
+    flex: 3;
+}
+
+.course-content-section {
+    flex: 1;
+}
+.menu-btn {
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

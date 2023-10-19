@@ -1,0 +1,75 @@
+div.container {
+    width: 85%;
+    margin: 0 200px 0 auto;
+}
+
+.assignment-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: 1px;
+    border-left: 4px solid green !important;
+}
+
+.assignment-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0px !important;
+}
+
+.assignment-description {
+    color: gray;
+}
+
+.assignment-point {
+    color: green;
+    font-weight: bold;
+}
+
+.search-bar {
+    width: 40%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+
+.btn-container {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-container .btn.btn-group {
+    background-color: grey;
+    color: white;
+}
+
+.btn-container .btn.btn-assignment {
+    background-color: red;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    margin-bottom: 2px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #D3D3D3;
+    border-left: 4px solid green;
+}
+
+
+
+.list-group {
+    margin-top: 0;
+}
