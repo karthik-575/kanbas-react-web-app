@@ -33,4 +33,23 @@
     font-size: 20px;
     cursor: pointer;
 }
+.add-btn {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+.update-btn {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+}
+
+.delete-btn {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+
+.editMod-btn {
+    background-color:#ffc107 !important;
+    border-color: #ffc107 !important;
+}
 

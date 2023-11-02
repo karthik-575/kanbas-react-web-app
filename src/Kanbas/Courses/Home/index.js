@@ -1,6 +1,6 @@
 import React from "react";
 
-import Title from "../Modules/index";
+import Title from "./homeTitle";
 import "./index.css"
 import { FaCheckCircle,
          FaBan,
@@ -14,7 +14,7 @@ function Home() {
     return (
         <div style={{ display: 'flex', width: '100%' }}>
             <div className="title-section">
-                <Title />
+              <Title/>
             </div>
             <MenuHeader />
         </div>
