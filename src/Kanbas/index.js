@@ -9,7 +9,7 @@ import { Provider } from "react-redux";
 import axios from "axios";
 
 function Kanbas() {
-    const URL = "http://localhost:4000/api/courses";
+    const URL = "https://kanbas-node-server-app-8jx3.onrender.com/api/courses";
     console.log(URL)
 
     const [course, setCourse] = useState({
